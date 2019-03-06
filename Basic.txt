@@ -1,25 +1,25 @@
-git init : .git Æú´õ »ı¼º
-git remote add orgin (RepositoryÁÖ¼Ò): RepositoryÁÖ¼Ò¿Í ¿¬°áÇÑ´Ù.
-=> ÇÑ¹øÇÏ¸é À§ °úÁ¤Àº ¹İº¹ÇÒ ÇÊ¿ä°¡ ¾ø´Ù.
+#git init : .git í´ë” ìƒì„±
+#git remote add orgin (Repositoryì£¼ì†Œ): Repositoryì£¼ì†Œì™€ ì—°ê²°í•œë‹¤.
+#=> í•œë²ˆí•˜ë©´ ìœ„ ê³¼ì •ì€ ë°˜ë³µí•  í•„ìš”ê°€ ì—†ë‹¤.
 
 
-push Àü¿¡ pullÀÌ ÀÖ´Ù.(Àı´ëÀûÀÎ°Ç ¾Æ´Ï´Ù ±âÃÊ¿¡¼± ÁöÄÑ¾ßµÊ-> ÀØÀ¸¸é ÆÄÀÏÀ» ³¯·Á¹ö¸±¼öµµÀÖµû.)
+#push ì „ì— pullì´ ìˆë‹¤.(ì ˆëŒ€ì ì¸ê±´ ì•„ë‹ˆë‹¤ ê¸°ì´ˆì—ì„  ì§€ì¼œì•¼ë¨-> ìŠìœ¼ë©´ íŒŒì¼ì„ ë‚ ë ¤ë²„ë¦´ìˆ˜ë„ìˆë”°.)
 
 
 
--Pull °úÁ¤
-git pull origin master: ÁöÁ¤ÇØ³õÀº ´Ù¸¥»ç¶÷ÀÇ Repository¿¡¼­ ÀÚ·á¸¦ ²ø¾î¿Â´Ù.
+#-Pull ê³¼ì •
+#git pull origin master: ì§€ì •í•´ë†“ì€ ë‹¤ë¥¸ì‚¬ëŒì˜ Repositoryì—ì„œ ìë£Œë¥¼ ëŒì–´ì˜¨ë‹¤.
 
--Push °úÁ¤
-git status: ÇöÀç Git°úÀÇ »óÅÂ Check ->Untracked µÈ ÆÄÀÏÀ» Ã£¾Æ¼­ ¾Ë·ÁÁØ´Ù. 
-git add . : ·ÎÄÃ Æú´õ¿Í º¯°æµÈ ÆÄÀÏ ¸ğµÎ Tracking
-git commit -m "message": ÀÎ½Ä ÇÒ ¼ö ÀÖ´Â commitÀ» ´Ş¾Æ Áİ´Ï´Ù.
-+ ¿À·ù repository¿¡ commit ÇÒ²«µ¥ ³Ê´Â ´©±¸ÀÎ°¡?
-Please tell me who you are .Run  
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name" to set your account's default identity.
-->
-$ git config --global user.name "user name"
-$ git config --global user.email "user e-mail" À» Àû¾îÁÖ¸é µÈ´Ù.
+#-Push ê³¼ì •
+#git status: í˜„ì¬ Gitê³¼ì˜ ìƒíƒœ Check ->Untracked ëœ íŒŒì¼ì„ ì°¾ì•„ì„œ ì•Œë ¤ì¤€ë‹¤. 
+#git add . : ë¡œì»¬ í´ë”ì™€ ë³€ê²½ëœ íŒŒì¼ ëª¨ë‘ Tracking
+#git commit -m "message": ì¸ì‹ í•  ìˆ˜ ìˆëŠ” commitì„ ë‹¬ì•„ ì¤ë‹ˆë‹¤.
+#+ ì˜¤ë¥˜ repositoryì— commit í• ê»€ë° ë„ˆëŠ” ëˆ„êµ¬ì¸ê°€?
+#Please tell me who you are .Run  
+#git config --global user.email "you@example.com"
+#git config --global user.name "Your Name" to set your account's default identity.
+#->
+#$ git config --global user.name "user name"
+#$ git config --global user.email "user e-mail" ì„ ì ì–´ì£¼ë©´ ëœë‹¤.
 
-git push origin master: ½ÇÁ¦·Î Git¿¡ Push¸¦ ÇÔ
+#git push origin master: ì‹¤ì œë¡œ Gitì— Pushë¥¼ í•¨
