@@ -1,7 +1,14 @@
+git init : .git 폴더 생성
+git remote add orgin (Repository주소): Repository주소와 연결한다.
+=> 한번하면 위 과정은 반복할 필요가 없다.
+
+
 push 전에 pull이 있다.(절대적인건 아니다 기초에선 지켜야됨-> 잊으면 파일을 날려버릴수도있따.)
 
+
+
 -Pull 과정
-git pull origin master: 지정해놓은 Repository에서 자료를 끌어온다.
+git pull origin master: 지정해놓은 다른사람의 Repository에서 자료를 끌어온다.
 
 -Push 과정
 git status: 현재 Git과의 상태 Check ->Untracked 된 파일을 찾아서 알려준다. 
