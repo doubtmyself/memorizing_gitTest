@@ -1,0 +1,18 @@
+push 전에 pull이 있다.(절대적인건 아니다 기초에선 지켜야됨-> 잊으면 파일을 날려버릴수도있따.)
+
+-Pull 과정
+git pull origin master: 지정해놓은 Repository에서 자료를 끌어온다.
+
+-Push 과정
+git status: 현재 Git과의 상태 Check ->Untracked 된 파일을 찾아서 알려준다. 
+git add . : 로컬 폴더와 변경된 파일 모두 Tracking
+git commit -m "message": 인식 할 수 있는 commit을 달아 줍니다.
++ 오류 repository에 commit 할껀데 너는 누구인가?
+Please tell me who you are .Run  
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name" to set your account's default identity.
+->
+$ git config --global user.name "user name"
+$ git config --global user.email "user e-mail" 을 적어주면 된다.
+
+git push origin master: 실제로 Git에 Push를 함
